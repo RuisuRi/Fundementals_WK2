@@ -14,13 +14,13 @@ public class InteractionPromptUI : MonoBehaviour
         _uiPanel.SetActive(false);
     }
 
-    private void LateUpdate()
+    private void LateUpdate()   
     {
         var rotation = _mainCam.transform.rotation;
         transform.LookAt(transform.position + rotation * Vector3.forward, rotation * Vector3.up);
     }
 
-    public bool IsDisplayed = false;
+    public bool IsDisplayed = true;
     public void SetUp(string promptText)
     {
         _promptText.text = promptText;
@@ -34,4 +34,5 @@ public class InteractionPromptUI : MonoBehaviour
         IsDisplayed = false;
     }
 }
+
         

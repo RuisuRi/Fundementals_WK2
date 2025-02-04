@@ -21,10 +21,12 @@ public class Interactor : MonoBehaviour
 
         if (_numFound > 0)
         {
-            _interactable = _colliders[0].GetComponent<IInteractable>();
-            if (_interactable != null) 
+            if (_colliders[0].TryGetComponent<IInteractable>(out _interactable)) 
             {
-                if (_interactionPromptUI.IsDisplayed) _interactionPromptUI.SetUp(_interactable.InteractionPromt);
+                if (_interactionPromptUI.IsDisplayed)
+                {
+                    _interactionPromptUI.SetUp(_interactable.InteractionPromt);
+                }
 
                 if (Keyboard.current.eKey.wasPressedThisFrame) _interactable.Interact(this);
             }

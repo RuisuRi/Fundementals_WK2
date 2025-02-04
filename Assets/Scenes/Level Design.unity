@@ -2747,7 +2747,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _uiPanel: {fileID: 651544147}
   _promptText: {fileID: 419698923}
-  IsDisplayed: 0
+  IsDisplayed: 1
 --- !u!1 &966180091
 GameObject:
   m_ObjectHideFlags: 0
@@ -5412,8 +5412,8 @@ Transform:
   m_GameObject: {fileID: 1838485605}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.48643488, z: 0}
-  m_LocalScale: {x: 1, y: 0.24676001, z: 1}
+  m_LocalPosition: {x: 0, y: 0.562, z: 0}
+  m_LocalScale: {x: 1, y: 0.12637812, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1625623746}
@@ -5459,7 +5459,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 60526d31528451b429367c07a61d54a8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5518,7 +5518,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0.10346154, y: -0, z: -0, w: 0.9946335}
   m_LocalPosition: {x: 0, y: 0.597, z: 0.121}
-  m_LocalScale: {x: 1.5072477, y: 0.19862393, z: 1.325653}
+  m_LocalScale: {x: 1.5072477, y: 0.2231937, z: 1.325653}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1625623746}
